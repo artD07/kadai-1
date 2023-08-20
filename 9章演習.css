@@ -22,9 +22,6 @@ main{
   position:relative;
   background-color:#eee;
 }
-.step-box:last-child{
-  margin-right:0;
-}
 
 .step-img1{
   height:150px;
@@ -64,8 +61,26 @@ footer{
   background-color:#aaa;
 }
 
-@media screen and (max-width: 425px) {
-  .social i {      /* 例です */
-    width: 100px;  /* 例です */
+/* スマートフォンサイズ（425px）以下の際に適用される設定 */
+@media (max-width: 425px) {
+  main{
+    width:100%;
+    display:block;
   }
+  .step-box{
+    width:90%;
+    margin:20px auto;
+  }
+  /*.stepbox .step-img1{*/
+  /*  width:90%;*/
+  /*  margin:0 auto;*/
+  /*}*/
+  /*.stepbox .step-img2{*/
+  /*  width:90%;*/
+  /*  margin:0 auto;*/
+  /*}*/
+  /*.stepbox .step-img3{*/
+  /*  width:90%;*/
+  /*  margin:0 auto;*/
+  /*}*/
 }
