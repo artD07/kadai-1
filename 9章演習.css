@@ -62,7 +62,7 @@ footer{
 }
 
 /* スマートフォンサイズ（425px）以下の際に適用される設定 */
-@media (max-width: 425px) {
+@media (max-width: 768px) {
   main{
     width:100%;
     display:block;
